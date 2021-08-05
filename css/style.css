@@ -1,0 +1,414 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* start nav */
+
+nav {
+    width: 100%;
+    height: 12.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+nav .row {
+    margin: 0 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .row img {
+    width: 6.5rem;
+}
+
+nav .row .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .row .navbar ul li {
+    font-family: "Raleway";
+    font-weight: 700;
+    color: #5a5869;
+    margin: 0 1.25vw;
+}
+
+
+/* end nav */
+
+
+/* start header */
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+header .row {
+    display: flex;
+    flex-direction: row;
+}
+
+header .row .left {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+header .row .left .text {
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .row .left .text h1 {
+    font-family: Raleway;
+    color: #1d1b43;
+}
+
+header .row .left .text p {
+    font-family: Raleway;
+    font-weight: 400;
+    color: #626175;
+}
+
+header .row .left form input {
+    width: 20vw;
+    height: 5vh;
+    margin-right: 5px;
+    padding: 0 15px;
+    font-family: Open sans;
+}
+
+header .row .left form button {
+    margin-left: 5px;
+    width: 12.5vw;
+    height: 5.5vh;
+    color: white;
+    background-color: #2f65f9;
+    border: none;
+    font-family: "Raleway";
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+header .row .right {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+header .row .right img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 75%;
+    background-size: cover;
+}
+
+
+/* end header */
+
+
+/* start section */
+
+section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+section .bg {
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    bottom: 0;
+}
+
+section .bg .img {
+    width: 100%;
+    position: relative;
+}
+
+section .bg .img img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+section .bg .bg-bottom {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f8fe;
+}
+
+section .row {
+    display: flex;
+    flex-direction: row;
+}
+
+section .row .left {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+section .row .left .text {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section .row .left .text h1 {
+    font-family: Raleway;
+    color: #1d1b43;
+}
+
+section .row .left .text p {
+    font-family: Raleway;
+    font-weight: 400;
+    color: #626175;
+}
+
+section .row .left .text button {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: Raleway;
+    font-weight: 600;
+    padding: 5px;
+    color: #63a89c;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #63a89c;
+}
+
+section .row .left .text .box {
+    margin: 5vh 0;
+    padding: 25px;
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+section .row .left .text .box p {
+    font-family: "Raleway";
+    font-size: 13px;
+}
+
+section .row .left .text .box .profile {
+    margin-top: 2.5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section .row .left .text .box .profile img {
+    border-radius: 50%;
+    width: 15%;
+    margin-right: 5px;
+}
+
+section .row .left .text .box .profile .text-profile {
+    margin-left: 5px;
+}
+
+section .row .left .text .box .profile .text-profile h5 {
+    font-weight: 900;
+    font-family: Open sans;
+}
+
+section .row .left .text .box .profile .text-profile h6 {
+    font-weight: 600;
+    font-family: Open sans;
+    color: #92909a;
+}
+
+section .row .left .text button img {
+    margin-left: 5px;
+}
+
+section .row .right {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+section .row .right img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+}
+
+
+/* end section */
+
+
+/* start form subscription */
+
+.subscribe-form {
+    height: 50vh;
+    width: 100%;
+    background-color: #575988;
+}
+
+.subscribe-form .row-form {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.subscribe-form .row-form .left-form {
+    width: 50%;
+    position: relative;
+    background-color: slategrey;
+}
+
+.subscribe-form .row-form .left-form .text-form {
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.subscribe-form .row-form .left-form .text-form h2 {
+    opacity: 100%;
+    font-family: Raleway;
+}
+
+.subscribe-form .row-form .left-form .text-form p {
+    opacity: 50%;
+    font-family: Open sans;
+}
+
+.subscribe-form .row-form .right-form {
+    width: 50%;
+    position: relative;
+}
+
+.subscribe-form .row-form .right-form form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form .row-form .right-form form input {
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: Raleway;
+    outline: none;
+}
+
+.subscribe-form .row-form .right-form form button {
+    width: 40%;
+    background-color: #2f66f6;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-family: Raleway;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/* end form subscription */
+
+
+/* start footer */
+
+footer {
+    width: 100%;
+    height: 75vh;
+    background-color: #07043b;
+    display: flex;
+    align-items: center;
+}
+
+footer .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-family: Open sans;
+}
+
+footer .row .contact {
+    position: relative;
+}
+
+footer .row .contact .logo {
+    position: absolute;
+    top: -10vh;
+    fill: blueviolet;
+}
+
+footer .row .contact .contact-container {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .row .contact .contact-container img {
+    margin-right: 15px;
+}
+
+footer .row .nav-left ul,
+footer .row .nav-right ul {
+    list-style: none;
+}
+
+
+/* end footer */
+
+
+/* start mobile */
+
+@media (max-width: 767px) {
+    header .row {
+        flex-direction: column;
+    }
+    header .row .left {
+        width: 100%;
+    }
+    header .row .right {
+        width: 100%;
+    }
+    header .row .right img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+}
+
+
+/* end mobile */
